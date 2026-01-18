@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Noah Zaroff. Developer, Creator, Innovator.">
+    <title>Noah Zaroff | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <nav class="navbar glass">
+        <div class="logo">NZ.</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" aria-label="Toggle Navigation">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content fade-in-up">
+            <span class="badge">Welcome to my space</span>
+            <h1>Building the <span class="gradient-text">Future</span> with Code</h1>
+            <p class="subtitle">I'm Noah Zaroff. I craft high-performance digital experiences that merge art with engineering.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-in-up delay-200">
+             <!-- Abstract tech illustration or 3D element placeholder -->
+             <div class="card glass hero-card">
+                <div class="card-content">
+                    <i class="fa-solid fa-code icon-large"></i>
+                    <h3>Full Stack</h3>
+                    <p>Robust & Scalable</p>
+                </div>
+             </div>
+             <div class="card glass hero-card float-delay-1">
+                <div class="card-content">
+                    <i class="fa-solid fa-paintbrush icon-large"></i>
+                    <h3>Creative</h3>
+                    <p>Modern Design</p>
+                </div>
+             </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">About <span class="gradient-text">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text fade-in-on-scroll">
+                    <p>I am a passionate developer with a knack for solving complex problems. My journey involves exploring new technologies and pushing the boundaries of web development.</p>
+                    <p>When I'm not coding, I'm exploring the latest in tech, contributing to open source, or gaming.</p>
+                    <div class="skills-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Design Systems</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">AI Integration</span>
+                    </div>
+                </div>
+                <div class="about-visual fade-in-on-scroll delay-200">
+                    <div class="glass card profile-card">
+                        <!-- Placeholder for profile image -->
+                        <div class="profile-placeholder">
+                            <i class="fa-solid fa-user-astronaut"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in-on-scroll">Selected <span class="gradient-text">Works</span></h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass fade-in-on-scroll">
+                    <div class="project-image">
+                        <div class="placeholder-img color-1"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Industrial Pricing Engine</h3>
+                        <p>AI-powered forecasting tool for industrial precious metals.</p>
+                        <div class="tags">
+                            <span>AI/ML</span>
+                            <span>Web App</span>
+                        </div>
+                        <a href="#" class="link-arrow">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+                
+                <!-- Project 2 -->
+                <article class="project-card glass fade-in-on-scroll delay-100">
+                    <div class="project-image">
+                        <div class="placeholder-img color-2"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A scalable, headless commerce solution with custom storefronts.</p>
+                        <div class="tags">
+                            <span>Next.js</span>
+                            <span>Stripe</span>
+                        </div>
+                        <a href="#" class="link-arrow">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card glass fade-in-on-scroll delay-200">
+                    <div class="project-image">
+                        <div class="placeholder-img color-3"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio V1</h3>
+                        <p>The previous iteration of my personal digital presence.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="#" class="link-arrow">View Project <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section footer-section">
+        <div class="container center-text">
+            <h2 class="section-title fade-in-on-scroll">Let's <span class="gradient-text">Connect</span></h2>
+            <p class="fade-in-on-scroll px-wide">Have a project in mind or just want to chat? Reach out to me.</p>
+            <a href="mailto:contact@noahzaroff.com" class="btn btn-primary big-btn fade-in-on-scroll delay-100">Say Hello</a>
+            
+            <div class="social-links fade-in-on-scroll delay-200">
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <footer class="glass-footer">
+            <p>&copy; 2026 Noah Zaroff. All rights reserved.</p>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
