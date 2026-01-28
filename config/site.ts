@@ -14,8 +14,8 @@ export const siteConfig = {
     },
     now: {
         role: "Investment Analyst (Steel Partners)",
-        building: "Fintech + automation systems",
-        buildingSub: "Fintech R&D",
+        building: "Software + automation systems",
+        buildingSub: "Systems & Tools",
         focus: "Investing • Product • Systems",
         listening: "Deep House / Lo-Fi"
     },
@@ -27,14 +27,6 @@ export const siteConfig = {
             link: "https://maroongroup.inc",
             featured: true,
             color: "from-rose-500 to-pink-600"
-        },
-        {
-            title: "Fintech R&D",
-            description: "Stealth-mode fintech project exploring intelligent transaction optimization and consumer financial tooling.",
-            tech: ["Fintech", "Systems", "R&D"],
-            link: "#",
-            featured: true,
-            color: "from-blue-600 to-cyan-500"
         },
         {
             title: "Jadro.ai",
@@ -116,6 +108,6 @@ export const siteConfig = {
     },
     metadata: {
         title: "NZ | Builder & Engineer",
-        description: "Investment Analyst & Builder. Evaluating opportunities at Steel Partners. Building fintech & automation systems.",
+        description: "Investment Analyst & Builder. Evaluating opportunities at Steel Partners. Building software & automation systems.",
     }
 }
