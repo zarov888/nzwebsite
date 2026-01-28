@@ -15,7 +15,7 @@ export const siteConfig = {
     now: {
         role: "Investment Analyst (Steel Partners)",
         building: "Fintech + automation systems",
-        buildingSub: "Payments Routing R&D",
+        buildingSub: "Fintech R&D",
         focus: "Investing • Product • Systems",
         listening: "Deep House / Lo-Fi"
     },
@@ -29,9 +29,9 @@ export const siteConfig = {
             color: "from-rose-500 to-pink-600"
         },
         {
-            title: "SwipeSmart / Tapd",
-            description: "Wallet-layer routing concept: choose the best credential at tap-time using deterministic policy + context.",
-            tech: ["Fintech", "Payments", "Routing", "Systems"],
+            title: "Fintech R&D",
+            description: "Stealth-mode fintech project exploring intelligent transaction optimization and consumer financial tooling.",
+            tech: ["Fintech", "Systems", "R&D"],
             link: "#",
             featured: true,
             color: "from-blue-600 to-cyan-500"
